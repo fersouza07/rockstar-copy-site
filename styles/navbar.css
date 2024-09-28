@@ -1,0 +1,89 @@
+.rockstarheader {
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px lightgrey;
+   
+}
+
+.rockstarlogo-nav {
+    width: 65px;
+   padding-left: 30px;
+   display: flex;
+}
+
+.header {
+    display: flex;
+}
+        /*   PARTE DOS JOGOS   */
+
+.navbar-options {
+    padding-top: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.navbar-options ul {
+    font-size: 20px;
+   padding-left: 380px;
+    gap: 25px;
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar-options a{
+    text-decoration: none;
+    color: white;
+}
+
+        /*   PARTE DO PERFIL   */
+
+.navbar-configuration {
+    justify-content: center;
+    display: flex;
+   
+}
+
+.navbar-configuration ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+.navbar-configuration a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-configuration-tool-img {
+    width: 30px;
+}
+
+.dont-move {
+    width: 35px;
+}
+
+.navbar-launcher {
+  background-color: #f5a623; 
+  color: #000000; 
+  border: none; /* Remove a borda padrão */
+  padding: 12px 24px; /* Tamanho do preenchimento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  border-radius: 4px; /* Deixa as bordas levemente arredondadas */
+  cursor: pointer; /* Muda o cursor para a mãozinha */
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.navbar-launcher:hover {
+    background-color: #e5941d; 
+  }
+
+/*.navbar-configuration-tool {
+    font-size: 25px;
+}*/
+

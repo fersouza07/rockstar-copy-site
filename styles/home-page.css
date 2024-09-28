@@ -1,0 +1,68 @@
+.home-page {
+    display: flex;
+}
+
+.home-page-img {
+    display: flex;
+}
+
+.gta6-img {
+    width: 1100px;
+    flex: 1;
+}
+
+.trailer {
+    background-color: black;
+   display: flex;
+   flex: 1  ;
+   padding-top: 4rem;
+   flex-direction: column;
+}
+
+.trailer h3, 
+.trailer h1 {
+    padding-left: 3.4rem;
+    color: white;
+}
+
+.trailer h3 {
+    font-size: 1.2rem;
+}
+
+.trailer h1 {
+    padding-top: 10px;
+    font-size: 3rem;
+}
+
+.trailerbutton {
+    padding-top: 40px;
+    padding-left: 2.5rem;
+}
+
+.trailer-button {
+    display: flex;
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    align-items: center; /* Centraliza o texto verticalmente */
+   
+    background-color:    #333; /* Cor de fundo mais escura */
+    width: 55%; /* Ajuste a largura conforme necessário */
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px 30px;
+    font-family: 'Arial', sans-serif; /* Substitua por uma fonte similar */
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+}
+
+.trailer-button:hover {
+    color: black;
+    border: none;
+    background-color: #e5941d;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Aumenta a sombra no hover */
+  
+}

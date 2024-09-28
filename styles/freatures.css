@@ -1,0 +1,75 @@
+.boletim {
+    padding-top: 6rem;
+    padding-left: 6.0rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8rem;
+
+}
+
+.card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1500px;
+    gap: 15px;
+}
+
+.card-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .card { 
+    width: 414px; 
+    height: 570px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+
+    cursor: pointer;
+    
+  }
+  
+  .card img {
+    width: 448px;
+    height: 456px; /* Ajustar a altura da imagem */
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    background-color: black;
+  }
+
+  .card-content h3,
+  .card-content p {
+    color: white;
+  }
+
+  .card-content span{
+    padding-left: 20px;
+    color: #A1A3A7;
+  }
+
+  .card-container p {
+    padding-top: 10px;
+    width: 200;
+    letter-spacing: 0.2px;
+    color: white;
+  }
+
+
+
+
+

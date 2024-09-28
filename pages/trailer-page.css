@@ -1,0 +1,30 @@
+.description {
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-bottom: 8rem;
+
+}
+
+.description h1,
+.description h2,
+.description h3 {
+    letter-spacing: 0.3px;
+    width: 500;
+    color: white;
+}
+
+.description h1 {
+    padding-top: 13px;
+    font-size: 2.7rem;
+    padding-bottom: 10px;
+}
+
+.description h2 {
+    padding-top: 18px;
+    font-size: 1.3rem;
+}
+
+.description span {
+    padding-left: 10px;
+    color: #A1A3A7;
+}

@@ -1,0 +1,9 @@
+.twitter-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-img {
+    justify-content: center;
+}
